@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Sakthi Dental Clinic, Hosur. Book an appointment or reach us for dental care queries." />
+  <title>Contact Us | Sakthi Dental Clinic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fas fa-tooth"></i></span>
+        Sakthi Dental
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="treatments.html">Treatments</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="nav-cta"><span class="btn btn-primary btn-sm">Fix an Appointment</span></a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="badge">Get in Touch</span>
+      <h1>Contact Us</h1>
+      <p>We would love to hear from you. Book an appointment or send us a message.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Form -->
+        <div class="contact-form-card">
+          <h2>We would love to hear from you</h2>
+          <div class="form-success" id="formSuccess">
+            Thank you! Your message has been received. We will get back to you shortly.
+          </div>
+          <form id="contactForm" novalidate>
+            <div class="form-group" id="nameGroup">
+              <label for="name">Name <span class="req">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+              <span class="error-msg">Please enter your name</span>
+            </div>
+            <div class="form-group" id="emailGroup">
+              <label for="email">Email <span class="req">*</span></label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+              <span class="error-msg">Please enter a valid email address</span>
+            </div>
+            <div class="form-group" id="phoneGroup">
+              <label for="phone">Phone Number <span class="req">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+              <span class="error-msg">Please enter your phone number</span>
+            </div>
+            <div class="form-group" id="messageGroup">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Tell us how we can help..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fas fa-paper-plane"></i> Submit
+            </button>
+          </form>
+        </div>
+
+        <!-- Info -->
+        <div class="contact-info-card">
+          <h2>Reach us</h2>
+          <div class="info-list">
+            <div class="info-item">
+              <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>Address</strong>
+                <p>B2/8, SBM Layout, Anthivadi, Hosur, Tamil Nadu 635109, India</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:info@sakthidentalclinic.in">info@sakthidentalclinic.in</a></p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <p>+91 9862890897 / +91 9363298118</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <strong>Timings</strong>
+                <p><strong>Sunday to Saturday: 9am to 7pm</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <i class="fas fa-map-marked-alt" style="font-size: 1.75rem;"></i>
+            <span>Hosur, Tamil Nadu</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon"><i class="fas fa-tooth"></i></span>
+            Sakthi Dental
+          </a>
+          <p>Specialized dental care for women, children & families in Hosur. Compassionate, modern, and trusted.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="treatments.html">Treatments</a>
+            <a href="faqs.html">FAQs</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </div>
+        </div>
+        <div>
+          <h4>Key Treatments</h4>
+          <div class="footer-links">
+            <a href="treatments.html">Teeth Cleaning</a>
+            <a href="treatments.html">Orthodontics</a>
+            <a href="treatments.html">Dental Implants</a>
+            <a href="treatments.html">Root Canal</a>
+            <a href="treatments.html">Pediatric Care</a>
+            <a href="treatments.html">Laser Dentistry</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-map-marker-alt"></i> B2/8, SBM Layout, Anthivadi, Hosur, Tamil Nadu 635109</li>
+            <li><i class="fas fa-envelope"></i> info@sakthidentalclinic.in</li>
+            <li><i class="fas fa-phone-alt"></i> +91 9862890897 / +91 9363298118</li>
+            <li><i class="fas fa-clock"></i> Sun–Sat: 9 AM – 7 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Sakthi Dental Clinic. All rights reserved. | Built for ShadowFox Internship
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
